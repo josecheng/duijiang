@@ -1,0 +1,54 @@
+{
+    "name": "josecheng/duijiang",
+    "description": "兑奖",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "keywords": [
+        "flarum"
+    ],
+    "authors": [
+        {
+            "name": "Jose Chen",
+            "email": "jose@airli.cn",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Josecheng\\Duijiang\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "flarum/core": "^1.8.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "兑奖",
+            "category": "feature",
+            "icon": {
+                "name": "fad fa-award-simple",
+                "backgroundColor": "#00ccb3",
+                "color": "#225650"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": true,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}

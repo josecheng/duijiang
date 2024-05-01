@@ -24,4 +24,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/josecheng/duijiang)
 - [GitHub](https://github.com/josecheng/duijiang)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.flarum.org.cn/u/josecheng)

@@ -20,7 +20,8 @@
     },
     "require": {
         "ext-json": "*",
-        "flarum/core": "^1.8.0"
+        "flarum/core": "^1.8.0",
+        "antoinefr/flarum-ext-money": "^1.3.1"
     },
     "extra": {
         "flarum-extension": {
@@ -28,8 +29,8 @@
             "category": "feature",
             "icon": {
                 "name": "fad fa-award-simple",
-                "backgroundColor": "#00ccb3",
-                "color": "#225650"
+                "backgroundColor": "#40fff8",
+                "color": "#33b31a"
             }
         },
         "flarum-cli": {
